@@ -1,0 +1,293 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    
+}
+
+.menu-button {
+    background-color: #7AE5FD;
+    border: none;
+    font-size: 18px;
+    padding: 21px 28px;
+    border-radius: 87px;
+    text-transform: uppercase;
+    width: 215px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.menu-title {
+    width: 100%;
+    /* position: fixed;
+    top: 3%;
+    box-sizing: border-box; */
+    font-size: 18px;
+    background-color: #F1FDFF;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    padding-top: 63px;
+}
+
+.menu-link {
+   padding-left: 63px;
+   display: flex;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 70px 750px;
+    z-index: 1;
+}
+
+.menu-item {
+    display: flex;
+    margin-left: 40px;
+}
+
+.first-screen-header {
+    font-weight: 800;
+    font-size: 85px;
+    width: 698px;
+    height: 264px;
+    padding-top: 72px;
+    color: #9AD2DE;
+    padding-left: 63px;
+    
+}
+
+.first-screen-subheading {
+    font-size: 20px;
+    width: 484px;
+    height: 48px;
+    padding-top: 64px;
+    padding-left: 63px;
+}
+
+.first-screen-woman {
+    margin-top: -660px;
+    margin-left: 300px;
+    width: 1277px;
+    height: 880px;
+    
+}
+
+.program {
+    background-color: #F5F5F5;
+}
+
+.program-header {
+    text-align: center;
+    padding: 69px;
+}
+
+.program-title {
+    font-size: 60px;
+    padding-top: 2px;
+}
+
+.program-list {
+    font-size: 27px;
+    padding-top: 2px;
+}
+
+.program-item {
+    font-size: 20px;
+    color: #73A6B1;
+    width: 588px;
+    height: 48px;
+    padding-left: 340px;
+    padding-top: 2px;
+}
+
+.scene-name {
+    font-size: 46px;
+    padding-top: 40px;
+}
+
+.scene-title {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.program-wrapper {
+    padding-left: 40px;
+}
+
+.max-width-wrapper {
+    background-color: #F1FDFF;
+    margin-top: 65px;
+}
+
+
+.program-line {
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.program-time {
+    font-size: 16px;
+    color: #3D8C9D;
+    
+}
+
+.program-scene-img {
+    padding-top: 35px;
+    width: 585px;
+    height: 424px;
+    border-radius: 10px;
+}
+
+.button-more {
+    margin-top: 71px;
+    margin-bottom: 71px;
+    margin-left: 589px;
+}
+
+.width-wrapper {
+    background-color: #F2FEFF;
+}
+
+.curve-gift {
+    width: 1285px;
+    height: 738px;
+    margin-left: 72px;
+}
+
+.gift-shirt {
+    width: 347px;
+    height: 395px;
+}
+
+.gift-flag {
+    width: 222px;
+    height: 344px;
+}
+
+.gift-header {
+    font-size: 27px;
+    width: 391px;
+    height: 99px;
+}
+
+.counter {
+    width: 739px;
+    height: 444px;
+    margin: 68px 500px;
+    text-align: center;
+}
+
+.counter-title {
+    font-size: 60px;
+}
+
+.counter-desc {
+    font-size: 20px;
+    width: 739px;
+    height: 48px;
+    color: #73A6B1;
+    padding-top: 5px;
+}
+
+.counter-name {
+    padding-top: 77px;
+    font-size: 27px;
+    padding-bottom: 16px;
+    margin-bottom: 17px;
+}
+
+.number {
+    font-size: 60px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-left: 3px solid #9AD2DE;
+}
+
+.button-name {
+    margin-top: 57px;
+}
+
+.width-wrapper-footer {
+    background-color: #F9FADF;
+}
+
+.contacts {
+    font-size: 60px;
+    padding-left: 57px;
+    padding-top: 57px;
+}
+
+.contact-info {
+    font-size: 20px;
+    padding-left: 850px;
+    margin-top: -60px;
+}
+
+.contact-name {
+    padding-bottom: 57px;
+}
+
+.telnum {
+    font-weight: bold;
+}
+
+.width-wrapper-letter {
+    background-color: #FFFFFF;
+}
+
+.subscribe-text {
+    font-size: 27px;
+    padding-top: 54px;
+}
+
+.field {
+    background-color: #F9FADF;
+    border: none;
+    width: 506px;
+    height: 66px;
+    border-radius: 61px;
+    padding-left: 43px;
+    font-size: 20px;
+    margin-top: 31px;
+}
+
+.button-field {
+    width: 506px;
+    height: 66px;
+}
+
+@media screen and (max-width: 390px) { 
+    .logo {
+        display: none;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+        width: 60px;
+    }
+
+    .menu-link {
+        justify-content: flex-end;
+    }
+}
